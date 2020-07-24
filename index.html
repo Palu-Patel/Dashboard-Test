@@ -1,0 +1,387 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Locobuzz Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+
+<body class="fixed-nav bg-dark" id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <a><img src="images/logo.png" width="60%"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarRespo" aria-controls="navbarRespo" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarRespo">
+            <ul class="navbar-nav navbar-sidenav overflow-auto" id="example">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#Account" data-parent="#example">
+            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            <span class="nav-link-text">Account</span>
+          </a>
+                    <ul class="sidenav-second-level collapse" id="Account">
+                        <li>
+                            <a href="">Account 1</a>
+                        </li>
+                        <li>
+                            <a href="">Account 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#Summary" data-parent="#example">
+            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            <span class="nav-link-text">Summary</span>
+          </a>
+                    <ul class="sidenav-second-level collapse" id="Summary">
+                        <li>
+                            <a href="">Summary 1</a>
+                        </li>
+                        <li>
+                            <a href="">Summary 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-ticket" aria-hidden="true"></i>
+            <span class="nav-link-text">Tickets</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-user-plus" aria-hidden="true"></i>
+            <span class="nav-link-text">All Mentions</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <span class="nav-link-text">Channels</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span class="nav-link-text">Reports</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span class="nav-link-text">Add Contents</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span class="nav-link-text">Campaign</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span class="nav-link-text">Analytics</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span class="nav-link-text">Email Marketing</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span class="nav-link-text">Ticket Aging Dashboard</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span class="nav-link-text">PR Dashboard</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span class="nav-link-text">Social Schedule</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span class="nav-link-text">UGC Management</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span class="nav-link-text">DIY Dashboard</span>
+          </a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav text-white ml-2">
+                <div class="dropdown">
+                    <label for="engine" style="display: block;" class="mb-0"><small>Duration</small></label>
+                    <a class="dropdown-toggle btn-sm p-0" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true">
+    				Today
+  			</a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Today</a>
+                        <a class="dropdown-item" href="#">Today_1</a>
+                        <a class="dropdown-item" href="#">Today_2</a>
+                    </div>
+                </div>
+
+
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <div class="d-flex">
+                        <div class="p-2 mt-2"><img src="images/HDFC_Bank_Logo.jpg" width="20" ;height="20"></div>
+                        <div class="p-2"><span class="profile_header "><small><b>Jemmy Lee</b><br>Team Leader</small></span></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-header mt-2">
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+            <span class="nav-link-text d-sm-none">Microphone</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-header mt-2">
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <span class="nav-link-text d-sm-none">Help</span>
+          </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-header mt-2">
+            <i class="fa fa-sign-out" aria-hidden="true"></i>
+            <span class="nav-link-text d-sm-none">Logout</span>
+          </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="content-wrapper">
+        <div class="container-fluid">
+            <!-- Breadcrumbs-->
+            <ol class="breadcrumb" style="margin-top: 12px;"><i class="fa fa-circle-o-notch" aria-hidden="true" style="margin-top: 5px;"></i> &nbsp; &nbsp;
+                <li class="breadcrumb-item">
+                    <a href="#">Locobuzz</a>
+                </li>
+                <li class="breadcrumb-item">Ticket</li>
+            </ol>
+            <div class="container">
+                <div class="row">
+                    <h6 class="col-12">
+                        Profile Configuration
+                    </h6>
+                    <p class="col-12">Configure all your channels/profiles search keywords here</p>
+                </div>
+
+                <!-- tab content goes here -->
+
+
+                <div class="container-fluide">
+                    <ul id="tabs" class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a id="tab-A" href="#pane-A" class="nav-link active" data-toggle="tab" role="tab">Social Profiles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab-B" href="#pane-B" class="nav-link" data-toggle="tab" role="tab">Keywords</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab-C" href="#pane-C" class="nav-link" data-toggle="tab" role="tab">Ad Accounts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab-D" href="#pane-D" class="nav-link" data-toggle="tab" role="tab">Other Profiles</a>
+                        </li>
+                    </ul>
+
+
+                    <div id="content" class="tab-content" role="tablist">
+                        <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
+                            <div class="card-header" role="tab" id="heading-A">
+                                <h5 class="mb-0">
+
+                                    <a data-toggle="collapse" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A">
+                        Social Profiles
+                    </a>
+                                </h5>
+                            </div>
+
+
+                            <div id="collapse-A" class="collapse show" data-parent="#content" role="tabpanel" aria-labelledby="heading-A">
+                                <div class="card-body container-fluide">
+                                    <!--strt tab content  -->
+                                    <div class="row">
+                                        <div class="col-sm-6 p-0">
+                                            <p>Active Profiles / Total Profiles :<b> <span style="color:#54d600">3</span> / 8</b></p>
+                                        </div>
+                                        <div class="col-sm-6 p-0">
+                                            <div class="dropdown">
+                                                <button type="button" class="btn btn-primary dropdown-toggle pull-right" data-toggle="dropdown">
+      <i class="fa fa-plus-circle" aria-hidden="true"></i> Add Profiles
+    </button>
+                                                <div class="dropdown-menu" style="margin-left: -96px!important;">
+                                                    <h5 class="dropdown-header">Add Your Social Media Profiles</h5>
+                                                    <a class="dropdown-item" href="#"><img src="images/Group 9316.svg"> &nbsp;<small> Facebook</small></a>
+                                                    <a class="dropdown-item" href="#"><img src="images/Layer 4 (1).svg"> &nbsp;<small> Twitter</small></a>
+                                                    <a class="dropdown-item" href="#"><img src="images/Group 9316.svg"> &nbsp;<small> Instagram</small></a>
+                                                    <a class="dropdown-item" href="#"><img src="images/Layer 4 (1).svg"> &nbsp;<small> linkedIn</small></a>
+                                                    <a class="dropdown-item" href="#"><img src="images/Group 9316.svg"> &nbsp;<small> Youtube</small></a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-3">
+                                        <div class="col-sm-9 border">
+                                            <h5 class="mt-3"><span><img src="images/Group 9316.svg"></span>&nbsp;&nbsp;<span><img src="images/Layer 4 (1).svg"></span>&nbsp;&nbsp;Facebook and Instagram Profile (3)</h5>
+
+
+                                            <div class="row">
+                                                <div class="col-sm-6">
+
+                                                    <div class="card">
+                                                        <div class="card_content bg-light border">
+                                                            <div class="shadow bg-white rounded">
+                                                                <div class="bg-dark">
+                                                                    <div class="d-flex p-1 text-white">
+                                                                        <div class="p-2"><img src="images/HDFC_Bank_Logo.jpg" width="30" ;height="30"></div>
+                                                                        <div class="p-2"><span class="title_txt"><b>State bank of india</b><br><small class="date_txt">Added on: Dec 12th 2019,1:56PM</small></span></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-body profile_txt">
+                                                                    <p class="card-text" style="margin-top: 12px;"><small><b>Last Updated on:</b> Dec 12th 2019,1:56PM</small></p>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between">
+                                                                    <div class="p-2"> <button type="button" class="btn btn-outline-secondary btn-sm"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</button></div>
+
+                                                                    <div class="p-2"><button type="button" class="btn btn-outline-secondary btn-sm"><i class="fa fa-pause-circle-o" aria-hidden="true"></i> Pause</button></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="hr-theme-slash-2 mt-2">
+                                                                <div class="hr-line"></div>
+                                                                <div class="hr-icon"><i class="fa fa-link" aria-hidden="true"></i></div>
+                                                                <div class="hr-line"></div>
+                                                            </div>
+                                                            <!-- 2nd -->
+                                                            <div class="shadow bg-white rounded">
+                                                                <div class="bg-dark">
+                                                                    <div class="d-flex p-1 text-white">
+                                                                        <div class="p-2"><img src="images/HDFC_Bank_Logo.jpg" width="30" ;height="30"></div>
+                                                                        <div class="p-2"><span class="title_txt"><b>State bank of india</b><br><small class="date_txt">Added on: Dec 12th 2019,1:56PM</small></span></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between">
+                                                                    <div class="p-2"> <button type="button" class="btn btn-outline-secondary btn-sm"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</button></div>
+
+                                                                    <div class="p-2"><button type="button" class="btn btn-outline-secondary btn-sm"><i class="fa fa-pause-circle-o" aria-hidden="true"></i> Pause</button></div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- 2nd -->
+
+                                                        </div>
+
+
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="card_content bg-light border">
+                                                        <div class="shadow bg-white rounded">
+                                                            <div class="bg-dark">
+                                                                <div class="d-flex p-1 text-white">
+                                                                    <div class="p-2"><img src="images/HDFC_Bank_Logo.jpg" width="30" ;height="30"></div>
+                                                                    <div class="p-2"><span class="title_txt"><b>State bank of india</b><br><small class="date_txt">Added on: Dec 12th 2019,1:56PM</small></span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex justify-content-between">
+                                                                <div class="p-2"> <button type="button" class="btn btn-outline-secondary btn-sm"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</button></div>
+
+                                                                <div class="p-2"><button type="button" class="btn btn-outline-secondary btn-sm"><i class="fa fa-pause-circle-o" aria-hidden="true"></i> Pause</button></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-3 bg-light"></div>
+                                    </div>
+                                    <!-- END tab 1 content -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="pane-B" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-B">
+                            <div class="card-header" role="tab" id="heading-B">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" href="#collapse-B" aria-expanded="false" aria-controls="collapse-B">
+                        Entertainment
+                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapse-B" class="collapse" data-parent="#content" role="tabpanel" aria-labelledby="heading-B">
+                                <div class="card-body">
+                                    Entertainment Content
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="pane-C" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-C">
+                            <div class="card-header" role="tab" id="heading-C">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" href="#collapse-C" aria-expanded="false" aria-controls="collapse-C">
+                        Accounts
+                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapse-C" class="collapse" role="tabpanel" data-parent="#content" aria-labelledby="heading-C">
+                                <div class="card-body">
+                                    Accounts Content
+                                </div>
+                            </div>
+                        </div>
+                        <div id="pane-D" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-C">
+                            <div class="card-header" role="tab" id="heading-D">
+                                <h5 class="mb-0">
+                                    <a class="collapsed" data-toggle="collapse" href="#collapse-D" aria-expanded="false" aria-controls="collapse-D">
+                        Others Profiles
+                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapse-D" class="collapse" role="tabpanel" data-parent="#content" aria-labelledby="heading-D">
+                                <div class="card-body">
+                                    Other Profiles Content
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+
+
+</html>
